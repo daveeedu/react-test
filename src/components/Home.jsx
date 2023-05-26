@@ -67,7 +67,7 @@ const Home = () => {
       <Box className="flex justify-end">
         <img src={IClose} className="w-[25px] m-4 cursor-pointer" />
       </Box>
-      <Box className="xl:grid xl:grid-cols-3 mb-16 mauto  xl:w-[90%]">
+      <Box className="xl:grid xl:grid-cols-3 mb-16 mauto  xl:w-[95%]">
         <Box className="xl:col-span-2 m-auto">
           <Box className="md:flex md:justify-between lg:mr-14 md:mr-8  mb-5 ">
             <img src={ILogo} className="md:w-[30%] w-[70%]  my-4 lg:ml-7 md:ml-3  cursor-pointer" />
@@ -232,7 +232,7 @@ const Home = () => {
             />
             </Box>
           </Box>
-          <Box className="lg:mx-14 md:mx-4 px-5 mt-14 mb-20">
+          <Box className="lg:mx-14 md:mx-4 px-5 lg:px-0 mt-14 mb-20">
           <LoadingButton
 					className="my-10 h-[70px] Radius bg-[var(--c-primary-0)] hover:bg-[var(--c-primary-1)] shadow-none"
 					sx={{".MuiLoadingButton-loadingIndicatorCenter": {color: 'var(--c-bg-color) !important'}}}
