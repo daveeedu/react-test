@@ -177,6 +177,7 @@ const Home = () => {
             </Box>
             <Box className="md:w-[45%] w-[100%] flex justify-end gap-4">
               <OutlinedInput
+              name="date"
                 style={{ borderRadius: 10 }}
                 // value={inputValue}
                 // onChange={handleInputChange}
@@ -187,6 +188,7 @@ const Home = () => {
               />
               <span className="text-[30px] text-[var(--c-grey-0)] mt-2">/</span>
               <OutlinedInput
+              name="date"
                 style={{ borderRadius: 10 }}
                 // value={yearValue}
                 // onChange={handleYearInputChange}
@@ -214,9 +216,6 @@ const Home = () => {
                 style={{ borderRadius: 10, textAlign: "center" }}
                 // value={inputValue}
                 // onChange={handleInputChange}
-                InputProps={{
-                  textAlign: "center",
-                }}
                 endAdornment={
                   <InputAdornment position="end">
                     <img
