@@ -66,7 +66,7 @@ const Home = () => {
       </Box>
       <Box className="xl:grid xl:grid-cols-3 mb-16 mauto  xl:w-[95%]">
         <Box className="xl:col-span-2 m-auto">
-          <Box className="md:flex md:justify-between lg:mr-14 md:mr-8  mb-5 ">
+          <Box className="md:flex md:justify-between lg:mr-14 md:mr-8  md:mb-5 mb-10 ">
             <img
               src={ILogo}
               className="md:w-[30%] w-[70%]  my-4 lg:ml-7 md:ml-3  cursor-pointer"
@@ -87,7 +87,7 @@ const Home = () => {
               </span>
             </Box>
           </Box>
-          <Box className="md:flex md:justify-between lg:mx-14 md:mx-9 mx-5">
+          <Box className="md:flex md:justify-between lg:mx-14 md:mx-9 mx-5 ">
             <Box className="">
               <h3 className="text-[var(--text-bg)] font-[500] text-[18px]">
                 Card Number
@@ -97,7 +97,7 @@ const Home = () => {
               </Typography>
             </Box>
             <Box className="flex gap-2 md:mt-4">
-              <img src={IEditPencil} className="w-[20px] mb-6 cursor-pointer" />
+              <img src={IEditPencil} className="w-[20px] md:mb-6 cursor-pointer" />
               <span className="cursor-pointer text-[20px] text-[var(--c-primary-0)]">
                 Edit
               </span>
